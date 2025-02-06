@@ -1,0 +1,522 @@
+
+
+/* Top Banner */
+
+ section.top-banner nav {
+     margin: 0 auto;
+     width: 100%;
+}
+ section.top-banner nav ol.breadcrumb a {
+     color: #fff;
+}
+ section.top-banner nav ol.breadcrumb li.breadcrumb-item {
+     color: #fff;
+     text-transform: uppercase;
+}
+ section.top-banner nav ol.breadcrumb li.breadcrumb-item::before {
+     color: #fff;
+}
+
+
+
+.top-banner.corporate-training {
+    height: 80vh;
+    display: flex;
+    color: #fff;
+    position: relative;
+    text-align: left !important;
+    z-index: 1;
+    background-attachment: fixed;
+    background-image: url(https://buildrichacademy.com/buildrich/wp-content/uploads/2023/09/cta-bg.jpg);
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+    .top-banner.corporate-training:after {
+    content: "";
+    position: absolute;
+    background-color: rgb(7 41 77 / 90%);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    }
+
+.banner-content h2 {
+        color: #FFF;
+        font-family: Work Sans;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    .banner-content h2 span {
+        color: rgba(246, 147, 32, 1);
+    }
+    a.btn_Inquire_Now {
+    margin-left: unset;
+    margin-top: 1.5em;
+    display: inline-block;
+    padding: 4px 18px;
+    background: #F36823;
+    color: #fff;
+    cursor: pointer;
+}
+
+    .banner-form-wrapper {
+    background: #FFF;
+    box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.08);
+    padding: 40px 40px;
+    width: 90%;
+    margin-left: auto;
+}
+
+.banner-form-wrapper lable {
+    color: #000;
+    margin-bottom: 7px;
+    display: inline-block;
+}
+
+.banner-form-wrapper input.wpcf7-form-control.wpcf7-submit {
+    background-color: #f36823;
+    border: 0;
+    color: #fff;
+    padding: 8px 35px;
+    margin-top: 25px;
+    margin-left: auto;
+    display: flex;
+}
+.banner-form-wrapper .form-group p {
+    margin: 0;
+    position: relative;
+}
+
+.banner-form-wrapper span.wpcf7-spinner {
+    position: absolute;
+    bottom: 0;
+    right: 24%;
+}
+.banner-form-wrapper .wpcf7 form .wpcf7-response-output {
+    color: #000;
+}
+
+ul.company-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.cp-section-1 .card .card-head {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.cp-section-1 .card .card-head h4 {
+    margin-left: 15px;
+    color: #07294D;
+    font-family: Work Sans;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+
+.google-start-rating {
+    display: flex;
+    padding: 0 0 15px;
+}
+.star-rating span.star.active {
+    color: #f69320;
+}
+
+    .profile_pic {
+        width: 126px;
+        height: 126px;
+        border-radius: 100px;
+        object-fit: cover;
+    }
+    .company_logo {
+        width: 120px;
+    }
+    .google-reviews-wrapper .card {
+    height: 350px;
+    margin-bottom: 0;
+    margin-top: 7em;
+}
+    a#gallery-load-more {
+    width: fit-content;
+    margin: 2em auto 0;
+    display: flex;
+}
+    a#gallery-load-more h2 {
+    font-size: 16px;
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+    background-color: #07294d;
+    color: #fff;
+    padding: 9px 32px;
+    line-height: 20px;
+    text-transform: capitalize;
+    }
+
+
+/* How we work */
+section.section-padding.how-we-work {
+    background: #F5F7FA;
+}
+ul.hww-list {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+ul.hww-list:after {
+    content: "";
+    border-top: 1px solid rgb(246 147 32 / 42%);
+    width: 5%;
+    right: 4%;
+    position: absolute;
+    top: 6%;
+}
+
+ul.hww-list li {
+    text-align: center;
+    padding: 0 20px;
+    position: relative;
+    width: 25%;
+}
+
+ul.hww-list li:before {
+    content: "";
+    position: absolute;
+    left: -39%;
+    border-top: 1px solid #f69320;
+    width: 76%;
+    top: 24px;
+}
+ul.hww-list li:first-child:before {
+    border-top: 1px solid rgb(246 147 32 / 42%);
+    width: 80px;
+    left: 9%;
+}
+ul.hww-list li:after {
+    content: "";
+    background-image: url(https://buildrichacademy.com/buildrich/wp-content/uploads/2023/11/right-arrow.png);
+    position: absolute;
+    left: 36%;
+    background-size: contain;
+    width: 8px;
+    height: 20px;
+    background-repeat: no-repeat;
+    top: 4%;
+}
+
+ul.hww-list li span.count {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #f69320;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    border-radius: 100%;
+    color: #f69320;
+    font-weight: 700;
+}
+
+ul.hww-list li h4 {
+    color: #272727;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    height: 50px;
+}
+
+
+/* Our Stats in Number */
+.Our_Stats_in_Number {
+    background: #07294D;
+}
+.Our_Stats_in_Number .content-wrapper {
+    text-align: center;
+}
+
+.Our_Stats_in_Number .content-wrapper h2 > span, .Our_Stats_in_Number .content-wrapper h2 {
+    color: #F69320;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+}
+
+.Our_Stats_in_Number .content-wrapper h5 {
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 20px;
+}
+
+.Our_Stats_in_Number .content-wrapper p {
+    color: #fff;
+}
+
+
+/* We develop meaningful IT solutions */
+.wd-m-it-solutions .section-title-wrapper p {
+    padding-left: 15px;
+}
+.wd-m-it-solutions a.btn_Inquire_Now {
+    background: #07294D;
+    padding: 5px 25px;
+}
+
+
+/* Why Choose Us? */
+
+.Why-Choose-Us .card.card-body {
+    background: #F5F7FA;
+    border: 0;
+    padding: 20px;
+}
+
+.Why-Choose-Us .card.card-body h4 {
+    color: #07294D;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+/* CTA */
+section.CTA-new {
+    background: #F4702E;
+}
+
+section.CTA-new h4 {
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+section.CTA-new a.btn_Inquire_Now {
+    background: #07294D;
+    padding: 5px 15px;
+}
+
+
+
+/* Student Placement */
+ section#students_placement {
+     background-color: #F5F7FA;
+}
+ #students_placement .col-lg-2 {
+     width: 15%;
+}
+ #students_placement .col-lg-10 {
+     width: 85%;
+}
+
+.students_placement_slider img.w-100 {
+        height: 270px;
+        object-fit: cover;
+        object-position: top;
+    }
+    .students_placement_slider .card {
+        min-height: 525px;
+    }
+
+ div#js-prev4 {
+     display: flex;
+     background-color: #414142;
+     align-items: center;
+     justify-content: center;
+     height: 35px;
+     width: 35px;
+     color: #fff;
+     position: relative;
+     right: 0;
+     left: 60%;
+     top: 23px;
+}
+ div#js-next4 {
+     display: flex;
+     background-color: #414142;
+     align-items: center;
+     justify-content: center;
+     height: 35px;
+     width: 35px;
+     color: #fff;
+     position: relative;
+     top: 50px;
+     right: 0;
+     left: 60%;
+}
+ .students_placement_slider .card h6 {
+     color: #07294D;
+     margin: 0;
+}
+ .students_placement_slider .card p.small {
+     margin-bottom: 8px;
+     color: rgba(7, 41, 77, 0.50);
+}
+ .students_placement_slider .card p {
+     font-size: 12px;
+     color: #535967;
+}
+/* FAQ */
+ div#accordion_faq_1 .card {
+     border-radius: 0;
+     border-bottom: 0;
+     border-color: #ccc;
+}
+ div#accordion_faq_1 .card:last-child {
+     border-bottom: 1px solid #ccc;
+}
+ div#accordion_faq_1 .card-body i {
+     color: #ffbf07;
+}
+ section.callback-section input.wpcf7-form-control.wpcf7-submit {
+     background-color: #F36823;
+     border: 0;
+     color: #fff;
+     margin-left: auto;
+     display: flex;
+     text-transform: uppercase;
+     padding: 5px 15px;
+     margin-top: 25px;
+}
+
+
+
+/* Media Query */
+
+@media(max-width: 1199px) {
+     section.top-banner {
+        padding: 5% 0 22%;
+    }
+}
+
+@media(max-width: 992px) {
+
+.top-banner.corporate-training:after {
+    top: -1px;
+}
+.banner-form-wrapper {
+    width: 100%;
+    margin-top: 10%;
+}
+.cp-section-1 .card .card-head h4 {
+    font-size: 20px;
+    line-height: 24px;
+}
+.cp-section-1 .card > img {
+    width: 160px;
+}
+
+.wd-m-it-solutions figure {
+    margin-top: 4em;
+}
+
+    ul.company-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    ul.company-list li {
+    width: 33%;
+    text-align: center;
+    margin-bottom: 25px;
+    }
+    .top-banner.corporate-training {
+        height: auto;
+        padding: 5% 0;
+    }
+
+     section#faq img {
+         display: block;
+         margin: 0 auto 2em;
+    }
+
+    ul.hww-list {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5em;
+    }
+    ul.hww-list li {
+        margin-bottom: 4em;
+    }
+    ul.hww-list li:after {
+        transform: rotate(90deg);
+        top: -18px;
+        left: 49.2%;
+    }
+    ul.hww-list li:first-child:before {
+        border-top: 0;
+        width: auto;
+        left: 50%;
+        top: -46px;
+        height: 40px;
+        border-color: rgb(246 147 32 / 50%);
+        border-left: 1px solid rgb(246 147 32 / 41%);
+    }
+    ul.hww-list li:before {
+        border-top: 0;
+        border-left: 1px solid #f36823;
+        height: 50px;
+        top: -30.4%;
+        left: 50%;
+        width: auto;
+    }
+    ul.hww-list li span.count {
+        margin-bottom: 10px;
+    }
+
+}
+ @media(max-width: 767px) {
+
+    br { display:none; }
+
+    ul.hww-list li:before, ul.hww-list li:first-child:before {
+        top: -22%;
+        left: 50.5%;
+    }
+
+
+     img.d-block.ms-auto {
+         margin-left: auto;
+         margin-right: auto;
+    }
+    
+     ul.benefit-list.d-flex li {
+         width: 100%;
+    }
+
+     #students_placement .card.p-0.border-0 {
+         width: 75%;
+         position: relative;
+         left: 6%;
+    }
+     section.callback-section figure {
+         margin-bottom: 2em !important;
+    }
+}

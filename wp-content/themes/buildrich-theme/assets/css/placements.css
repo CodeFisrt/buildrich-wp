@@ -1,0 +1,410 @@
+ img {
+     height: auto;
+}
+/* Top Banner */
+ section.top-banner {
+     height: 55vh;
+     display: flex;
+     color: #fff;
+     background-image: url('../images/cta-bg.jpg');
+     position: relative;
+     z-index: 1;
+     align-items: center;
+     background-attachment: fixed;
+     text-align: center;
+}
+ section.top-banner:after {
+     content: "";
+     position: absolute;
+     background-color: rgb(7 41 77 / 90%);
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+     z-index: -1;
+}
+ section.top-banner nav {
+     margin: 0 auto;
+     width: fit-content;
+}
+ section.top-banner nav ol.breadcrumb a {
+     color: #fff;
+}
+ section.top-banner nav ol.breadcrumb li.breadcrumb-item {
+     color: #fff;
+     text-transform: uppercase;
+}
+ section.top-banner nav ol.breadcrumb li.breadcrumb-item::before {
+     color: #fff;
+}
+ section.top-banner h1 {
+     position: relative;
+     margin-bottom: 1em;
+}
+ section.top-banner h1:after {
+     content: "";
+     position: absolute;
+     left: 0;
+     right: 0;
+     width: 30px;
+     border-bottom: 2px solid #F36823;
+     bottom: -18px;
+     margin: 0 auto;
+}
+/* Section 1 */
+ h6.section-sub-title.text-uppercase {
+     font-size: 18px;
+     color: #111;
+}
+ h6.section-sub-title.text-uppercase span {
+     width: 25px;
+     display: inline-block;
+     background-color: #07294D;
+     height: 2px;
+     position: relative;
+     bottom: 4px;
+     margin-right: 5px;
+}
+/* Section 2 */
+ #section_2 figure, #section_3 figure {
+     padding: 20px;
+     position: relative;
+}
+ #section_2 figure:before {
+     z-index: -1;
+     content: "";
+     position: absolute;
+     left: 20px;
+     top: 10px;
+     background-color: #F36823;
+     right: 10px;
+     bottom: 50px;
+}
+ #section_2 figure:after {
+     z-index: -1;
+     content: "";
+     position: absolute;
+     left: 10px;
+     top: auto;
+     background-color: #F36823;
+     right: auto;
+     bottom: 10px;
+     width: 100px;
+     height: 100px;
+}
+ #section_2 figure img {
+     height: 450px;
+     object-fit: cover;
+}
+/* Section 3 */
+ #section_3 figure:before {
+     z-index: -1;
+     content: "";
+     position: absolute;
+     left: 10px;
+     top: 10px;
+     background-color: #F36823;
+     right: 20px;
+     bottom: 50px;
+}
+ #section_3 figure:after {
+     z-index: -1;
+     content: "";
+     position: absolute;
+     left: auto;
+     top: auto;
+     background-color: #F36823;
+     right: 10px;
+     bottom: 10px;
+     width: 100px;
+     height: 100px;
+}
+ #section_3 figure img {
+     height: 460px;
+     object-fit: cover;
+}
+/* Section 4 */
+ section#section_4 .content-wrapper {
+     margin-bottom: 2.5em;
+}
+ section#section_4 .card-wrapper {
+     display: flex;
+     flex-wrap: wrap;
+     position: relative;
+}
+ section#section_4 .card-wrapper img.hired-vector {
+     position: absolute;
+     left: 0;
+     z-index: 9;
+     right: 0;
+     margin: 0 auto;
+     top: 30%;
+     width: 180px;
+}
+ section#section_4 .card.card-body {
+     background-color: #F5F7FA;
+     width: 34%;
+     border: 0;
+     margin: 0 15px 30px;
+     text-align: center;
+     border-radius: 0;
+     padding: 35px 0;
+}
+ section#section_4 .card.card-body figure {
+     border-radius: 100%;
+     width: 100px;
+     height: 100px;
+     margin: 0 auto 10px;
+}
+ section#section_4 .card.card-body figure img.w-100 {
+     border-radius: 100%;
+     display: block;
+     margin: 0 auto;
+}
+ section#section_4 .card.card-body h5 {
+     font-weight: 600;
+     margin-bottom: 0;
+     color: #07294D;
+}
+ section#section_4 .card.card-body p {
+     color: rgba(7, 41, 77, 0.50);
+     font-size: 14px;
+     margin: 0;
+}
+/* Section 5 */
+ section#section_5 {
+     z-index: 1;
+     position: relative;
+     color: #000;
+}
+ section#section_5:before {
+     content: "";
+     position: absolute;
+     left: 0;
+     top: 0;
+     background-color: #F36823;
+     height: 70vh;
+     right: 0;
+     z-index: -1;
+}
+ section#section_5:after {
+     content: "";
+     position: absolute;
+     left: 0;
+     top: 0px;
+     background-image: url('../images/cta-bg.jpg');
+     background-size: cover;
+     height: 70vh;
+     width: 100%;
+     z-index: -1;
+     opacity: 0.13;
+     background-attachment: fixed;
+}
+ figure.video a.glightbox {
+     display: block;
+     position: relative;
+}
+ figure.video a.glightbox i.fa-solid.fa-play {
+     position: absolute;
+     left: 0;
+     right: 0;
+     margin: 0 auto;
+     width: 60px;
+     height: 60px;
+     font-size: 28px;
+     color: #fff;
+     background-color: #22C55E;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     top: 40%;
+     border-radius: 100%;
+}
+ ul.benefit-list.d-flex {
+     padding-left: 15px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     margin-top: 2em;
+}
+ ul.benefit-list.d-flex li {
+     width: 50%;
+     color: #07294D;
+     font-size: 15px;
+     margin-bottom: 10px;
+}
+ a.btn_join {
+     display: inline-block;
+     background-color: #07294D;
+     color: #fff;
+     font-size: 15px;
+     padding: 8px 15px;
+}
+ ul.technology-list {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+}
+ ul.technology-list li {
+     width: 30%;
+     border: 1px solid #FDCACC;
+     margin-bottom: 25px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     padding: 20px 0;
+}
+ ul.technology-list li img {
+     margin-bottom: 15px;
+     width:100px;
+}
+ ul.technology-list li h6 {
+     color: #07294D;
+     font-weight: 600;
+     margin-bottom: 0;
+}
+/* Testimonials */
+ .ti-widget-container.ti-col-3 {
+     margin-bottom: 0 !important;
+}
+ .ti-widget.ti-goog .ti-review-header .ti-profile-details .ti-name {
+     text-transform: uppercase;
+}
+ .ti-widget.ti-goog .ti-controls .ti-next:before, .ti-widget.ti-goog .ti-controls .ti-prev:before, .ti-widget.ti-goog .ti-controls .ti-next:after, .ti-widget.ti-goog .ti-controls .ti-prev:after {
+     background: #f6bb06 !important;
+}
+
+/* Student Placement */
+ section#students_placement {
+     background-color: #F5F7FA;
+}
+ #students_placement .col-lg-2 {
+     width: 15%;
+}
+ #students_placement .col-lg-10 {
+     width: 85%;
+}
+ div#js-prev4 {
+     display: flex;
+     background-color: #414142;
+     align-items: center;
+     justify-content: center;
+     height: 35px;
+     width: 35px;
+     color: #fff;
+     position: relative;
+     right: 0;
+     left: 60%;
+     top: 23px;
+}
+ div#js-next4 {
+     display: flex;
+     background-color: #414142;
+     align-items: center;
+     justify-content: center;
+     height: 35px;
+     width: 35px;
+     color: #fff;
+     position: relative;
+     top: 50px;
+     right: 0;
+     left: 60%;
+}
+ .students_placement_slider .card h6 {
+     color: #07294D;
+     margin: 0;
+}
+ .students_placement_slider .card p.small {
+     margin-bottom: 8px;
+     color: rgba(7, 41, 77, 0.50);
+}
+ .students_placement_slider .card p {
+     font-size: 12px;
+     color: #535967;
+}
+/* FAQ */
+ div#accordion_faq_1 .card {
+     border-radius: 0;
+     border-bottom: 0;
+     border-color: #ccc;
+}
+ div#accordion_faq_1 .card:last-child {
+     border-bottom: 1px solid #ccc;
+}
+ div#accordion_faq_1 .card-body i {
+     color: #ffbf07;
+}
+ section.callback-section input.wpcf7-form-control.wpcf7-submit {
+     background-color: #F36823;
+     border: 0;
+     color: #fff;
+     margin-left: auto;
+     display: flex;
+     text-transform: uppercase;
+     padding: 5px 15px;
+     margin-top: 25px;
+}
+
+/* Media Query */
+ @media(max-width: 992px) {
+     #section_2 figure, #section_3 figure {
+         width: 60%;
+         margin: 0 auto;
+    }
+     #section_2 figure img {
+         height: 400px;
+    }
+     #section_3 figure img {
+         height: 420px;
+         object-position: top;
+    }
+     a.btn_join {
+         margin: 0 auto 3em;
+         display: flex;
+         width: fit-content;
+    }
+     ul.technology-list {
+         display: flex;
+         justify-content: space-around;
+    }
+     section#faq img {
+         display: block;
+         margin: 0 auto 2em;
+    }
+}
+ @media(max-width: 767px) {
+     img.d-block.ms-auto {
+         margin-left: auto;
+         margin-right: auto;
+    }
+     #section_2 figure, #section_3 figure {
+         width: 100%;
+         margin: 0 auto;
+    }
+     #section_2 figure img, #section_3 figure img {
+         height: auto;
+    }
+     section#section_4 .card-wrapper img.hired-vector {
+         top: 38%;
+         width: 130px;
+    }
+     section#section_5:before, section#section_5:after {
+         height: 45vh;
+    }
+     ul.benefit-list.d-flex li {
+         width: 100%;
+    }
+    /* div#js-prev4, div#js-next4 {
+         left: 15px;
+    }
+    */
+     #students_placement .card.p-0.border-0 {
+         width: 75%;
+         position: relative;
+         left: 6%;
+    }
+     section.callback-section figure {
+         margin-bottom: 2em !important;
+    }
+}

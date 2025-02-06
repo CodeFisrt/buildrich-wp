@@ -1,0 +1,130 @@
+
+
+section.top-banner {
+    height: 55vh;
+    display: flex;
+    color: #fff;
+    background-image: url('../images/cta-bg.jpg');
+    position: relative;
+    z-index: 1;
+    align-items: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+section.top-banner:after {
+    content: "";
+    position: absolute;
+    background-color: rgb(7 41 77 / 90%);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+section.top-banner h1 {
+    position: relative;
+    margin-bottom: 1em;
+}
+section.top-banner nav {
+    margin: 0 auto;
+    width: fit-content;
+}
+section.top-banner nav ol.breadcrumb li.breadcrumb-item {
+    color: #fff;
+    text-transform: uppercase;
+}
+section.top-banner nav ol.breadcrumb a {
+    color: #fff;
+}
+
+
+
+#contact_us .card h5 {
+    color: #F69463;
+    font-weight: 400;
+    letter-spacing: 4.2px;
+    font-size: 16px;
+}
+
+#contact_us .card {
+    border-bottom: 1px solid #d9d9d9 !important;
+    width: 75%;
+    border-radius: 0;
+    padding: 25px 0;
+}
+#contact_us .card.last { border-bottom: 0 !important; }
+
+#contact_us .card address {
+    margin: 0;
+    color: #262626;
+    font-weight: 400;
+}
+
+
+#contact_us .form-wrapper h6 {
+    color: #2F3337;
+    font-weight: 600;
+    line-height: 26px;
+}
+#contact_us .form-wrapper p {
+    color: #A5A3A3;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 15px;
+}
+#contact_us .form-wrapper lable {
+    color: #001B36;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+#contact_us .wpcf7 input::placeholder,
+#contact_us .wpcf7 textarea::placeholder {
+    color: #C9D6DF;
+    font-family: Nunito;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 220.625%; /* 26.475px */
+}
+
+#contact_us .wpcf7 input::placeholder,
+#contact_us .wpcf7 textarea::placeholder {
+    color: #C9D6DF;
+    font-family: Nunito;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 220.625%; /* 26.475px */
+}
+
+
+#contact_us textarea {
+    height: 100px;
+}
+#contact_us .form-control {
+    border-radius: 0;
+}
+
+#contact_us input.wpcf7-form-control.wpcf7-submit {
+    background-color: #F36823;
+    border: 0;
+    padding: 10px 21px;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    float: right;
+}
+
+
+/* Media Query */
+
+@media(max-width: 992px) {
+    .section-padding {
+        padding: 2em 0;
+    }
+}

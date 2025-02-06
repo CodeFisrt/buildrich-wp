@@ -1,0 +1,141 @@
+/*!
+Theme Name: buildrich
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: buildrich
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+buildrich is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+/* Styles for the Previous and Next navigation links */
+/* Styles for the previous and next navigation links */
+.nav-previous a,
+.nav-next a {
+    background-color: #F36823;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 10px 20px;
+}
+
+.nav-previous a:hover,
+.nav-next a:hover {
+    background-color: #F36823;
+}
+
+/* Styles for the comment area */
+.comments-area {
+    margin-top: 40px;
+    border-top: 2px solid #F36823;
+    padding-top: 20px;
+}
+
+/* Styles for the comment form */
+.comment-form {
+    margin-top: 20px;
+}
+
+.comment-form label {
+    font-weight: bold;
+}
+
+.comment-form input[type="text"],
+.comment-form input[type="email"],
+.comment-form textarea {
+    width: 100%;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 10px 20px;
+}
+
+.comment-form input[type="submit"] {
+    background-color: #F36823;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    border: none;
+}
+
+.comment-form input[type="submit"]:hover {
+    /* Add hover styles if needed */
+}
+
+/* Styles for the comment text */
+.comment-text {
+    margin-bottom: 20px;
+    border-left: 4px solid #F36823;
+    padding-left: 10px;
+}
+
+.comment-author {
+    font-weight: bold;
+    color: #F36823;
+}
+
+.comment-date {
+    color: #999;
+}
+
+.comment-reply-link {
+    color: #F36823;
+    text-decoration: none;
+}
+
+.comment-reply-link:hover {
+    text-decoration: underline;
+}
+
+/* Styles for the sidebar */
+#secondary {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Styles for widgets */
+.widget {
+    margin-bottom: 20px;
+}
+
+.widget-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #F36823;
+}
+
+.widget ul {
+    list-style: none;
+    padding: 0;
+}
+
+.widget ul li {
+    margin-bottom: 5px;
+}
+
+.widget ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.widget ul li a:hover {
+    color: #F36823;
+    text-decoration: underline;
+}
